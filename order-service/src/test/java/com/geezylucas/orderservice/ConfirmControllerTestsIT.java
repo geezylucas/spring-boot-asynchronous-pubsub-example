@@ -44,7 +44,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ActiveProfiles("test")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
-class ConfirmControllerTests {
+class ConfirmControllerTestsIT {
 
     private static final String PROJECT_ID = "test-project";
 
